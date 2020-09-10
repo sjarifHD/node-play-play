@@ -13,12 +13,8 @@ pids
 # node-waf configuration
 .lock-wscript
 
-# Compiled binary addons (http://nodejs.org/api/addons.html)
-build/Release
-
-# Dependency directory
-# https://docs.npmjs.com/cli/shrinkwrap#caveats
-node_modules
+/build
+/node_modules
 
 # Debug log from npm
 npm-debug.log
